@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-family: "ubuntu", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #878787;
+}
+
+header {
+  background-color: #ff6200;
+  height: 34px;
+  line-height: 34px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+nav {
+  height: 108px;
+  line-height: 108px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  clear: both;
+}
+
+#main-section {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 980px;
+}
+
+.active-span {
+  color: #be3600 !important;
+  margin-right: 5px;
+}
+
+.header-left-container {
+  float: left;
+}
+
+.header-right-container {
+  float: right;
+}
+
+.login-margin {
+  margin: 0px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav ul > li {
+  margin: 0px 10px;
+}
+
+nav ul > li a {
+  text-decoration-style: none;
+  color: #333;
+  text-decoration: none;
+}
+
+#logo {
+  font-size: 41px;
+  font-weight: 550;
+  color: #ff6200;
+}
+
+#logo .dark {
+  color: #313131;
+}
+
+.breadcrum {
+  padding: 20px 0px;
+}
+
+.contact-title {
+  font-size: 27px;
+  font-weight: 550;
+  display: block;
+  color: #ff6200;
+}
+
+.contact-header-section {
+  margin-bottom: 50px;
+}
+.contact-header-section p {
+  margin: 0;
+}
+
+#contact-us-section > section {
+  width: calc(50% - 40px);
+}
+
+#contact-us-section ._left {
+  float: left;
+}
+
+#contact-us-section ._right {
+  float: right;
+}
+
+#contact-us-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-us-section .section-title {
+  font-size: 23px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  display: block;
+  border-bottom: 4px solid #252525;
+  color: #ff6200;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ededed;
+  background: #f6f6f6;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px;
+  border: 1px solid #ededed;
+}
